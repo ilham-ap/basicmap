@@ -1,0 +1,49 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #2a67af;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.App-navbar {
+  margin-top: 10px;
+}
+
+.App-navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.App-navbar a:hover {
+  text-decoration: underline;
+}
+
+.Map-container {
+  flex: 1; /* Allow the map to take up the remaining space */
+  width: 96%;
+  margin: 20px auto;
+}
+
+.Map {
+  height: 100%; /* Full height of the Map-container */
+  width: 100%;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 10px;
+}
